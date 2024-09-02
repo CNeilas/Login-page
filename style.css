@@ -110,7 +110,10 @@ input {
   padding: 5px;
 }
 
-input:invalid {
+#password:invalid {
+    border-color: red;
+}
+#confirm_password:invalid {
     border-color: red;
 }
 
